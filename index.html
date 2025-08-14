@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fjalla+One&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mozilla+Text:wght@200..700&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Savate:ital,wght@0,200..900;1,200..900&family=Slabo+27px&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="nav_bar">
+            <div class="nav_child1">
+                <img src="./image logos/logo.png" alt="Logo">
+            </div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+
+            <div class="nav_child2">
+                <nav><a href="./index.html" target="_self">Home</a></nav>
+                <nav>
+                    <div class="dropdown">
+                        <button class="dropbtn">PAGES</button>
+                        <div class="dropdown-content">
+                            <a href="./about.html" target="_self">About</a>
+                            <a href="./testimonial.html" target="_self">Testimonial</a>
+
+                        </div>
+                    </div>
+                </nav>
+                <nav><a href="./products.html" target="_self">Product</a></nav>
+                <nav><a href="./blog.html" target="_self">Blog</a></nav>
+                <nav><a href="./contact.html" target="_self">Contact</a></nav>
+                <nav>
+                    <i class="bi bi-cart3"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-cart3" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                    </svg>
+                </nav>
+                <nav>
+                    <i class="bi bi-search"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                    </svg>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="Slider_img" id="home">
+        <div class="sld_img">
+            <img src="./image logos/slider-bg.jpg" alt="Slider img">
+        </div>
+        <div class="sld_txt">
+            <h1>
+                Sale 20% Off
+            </h1>
+            <h2>
+                On Every Thing
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, illo ex. Amet obcaecati
+                repellendus minima enim numquam voluptate nobis temporibus reiciendis necessitatibus, fugit
+                repudiandae accusamus nam expedita. Inventore, fugiat minus.
+                Eaque nobis
+            </p>
+            <button class="sld_button">
+                Shop Now
+            </button>
+        </div>
+    </div>
+
+    <section class="shopping">
+        <h1 class="quote">Why Shop With Us</h1>
+        <div class="Shop_det">
+            <div class="delivery">
+                <i class="bi bi-truck"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                </svg>
+                <h3>Fast Delivery</h3>
+                <h4>variations of passages of Lorem Ipsum available</h4>
+            </div>
+            <div class="shipping">
+
+                <h3> Free Shiping</h3>
+                <h4>variations of passages of Lorem Ipsum available</h4>
+            </div>
+            <div class="quality">
+                <h3>Best Quality</h3>
+                <h4>variations of passages of Lorem Ipsum available</h4>
+            </div>
+        </div>
+
+    </section>
+    <div class="arrival" id="about">
+        <div class="arrival_img">
+            <img src="./image logos/arrival-bg.png" alt="Slider img">
+        </div>
+        <div class="arrival_txt">
+            <h1>
+                Sale 20% Off
+            </h1>
+            <h2>
+                On Every Thing
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, illo ex. Amet obcaecati
+                repellendus minima enim numquam voluptate nobis temporibus reiciendis necessitatibus, fugit
+                repudiandae accusamus nam expedita. Inventore, fugiat minus.
+                Eaque nobis
+            </p>
+            <button class="arrival_btn">
+                Shop Now
+            </button>
+        </div>
+    </div>
+    <main class="main" id="products">
+        <div class="product_txt">
+            <h1>Our products</h1>
+        </div>
+        <div class="products">
+            <div class="prd_img">
+                <img src="./image logos/p1.png" alt="">
+                <div class="prd_kart">
+                    <div><button>ADD to CART</button></div>
+                    <div><button>BUY NOW</button></div>
+                </div>
+            </div>
+
+            <div class="prd_img">
+                <img src="./image logos/p2.png" alt="">
+                <div class="prd_kart">
+                    <div><button>ADD to CART</button></div>
+                    <div><button>BUY NOW</button></div>
+                </div>
+            </div>
+            <div class="prd_img">
+                <img src="./image logos/p3.png" alt="">
+                <div class="prd_kart">
+                    <div><button>ADD to CART</button></div>
+                    <div><button>BUY NOW</button></div>
+                </div>
+            </div>
+            <div class="prd_img">
+                <img src="./image logos/p4.png" alt="">
+                <div class="prd_kart">
+                    <div><button>ADD to CART</button></div>
+                    <div><button>BUY NOW</button></div>
+                </div>
+
+            </div>
+            <div class="prd_img">
+                <img src="./image logos/p5.png" alt="">
+                <div class="prd_kart">
+                    <div><button>ADD to CART</button></div>
+                    <div><button>BUY NOW</button></div>
+                </div>
+            </div>
+            <div class="prd_img">
+                <img src="./image logos/p6.png" alt="">
+                <div class="prd_kart">
+                    <div><button>ADD to CART</button></div>
+                    <div><button>BUY NOW</button></div>
+                </div>
+
+            </div>
+            <div class="prd_img">
+                <img src="./image logos/p7.png" alt="">
+                <div class="prd_kart">
+                    <div><button>ADD to CART</button></div>
+                    <div><button>BUY NOW</button></div>
+                </div>
+            </div>
+            <div class="prd_img">
+                <img src="./image logos/p8.png" alt="">
+                <div class="prd_kart">
+                    <div><button>ADD to CART</button></div>
+                    <div><button>BUY NOW</button></div>
+                </div>
+            </div>
+            <div class="prd_img">
+                <img src="./image logos/p9.png" alt="">
+                <div class="prd_kart">
+                    <div><button>ADD to CART</button></div>
+                    <div><button>BUY NOW</button></div>
+                </div>
+            </div>
+            <div class="prd_img">
+                <img src="./image logos/p10.png" alt="">
+                <div class="prd_kart">
+                    <div><button>ADD to CART</button></div>
+                    <div><button>BUY NOW</button></div>
+                </div>
+
+            </div>
+            <div class="prd_img">
+                <img src="./image logos/p11.png" alt="">
+                <div class="prd_kart">
+                    <div><button>ADD to CART</button></div>
+                    <div><button>BUY NOW</button></div>
+                </div>
+            </div>
+            <div class="prd_img">
+                <img src="./image logos/p12.png" alt="">
+                <div class="prd_kart">
+                    <div><button>ADD to CART</button></div>
+                    <div><button>BUY NOW</button></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="view-btn-container">
+            <button><a href="">View all products</a></button>
+        </div>
+    </main>
+
+    <section class="subscribe_note">
+        <div class="article_page">
+            <h1>Subscribe To Get Discount Offers</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            <input type="email" placeholder="Enter Your Email" required>
+            <button>SUBSCRIBE</button>
+        </div>
+    </section>
+
+    <section class="Customer_testimonial" id="testimonial">
+        <div class="customer_review">
+            <div>
+                <h1>Customer's Testimonial</h1>
+            </div>
+            <div class="cust_img">
+                <img src="./image logos/client.jpg" alt="">
+                <div class="cust_name">
+                    <p>Anna Trevor
+                    </p>
+                </div>
+                <div class="customer">
+                    <p>Customer</p>
+                </div>
+            </div>
+            <div class="cust_rev">
+                <p>Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis
+                    reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore
+                    modi voluptatibus accusantium sapiente nam! Quaerat.</p>
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-box logo-box">
+                <h2 class="logo"><img src="./image logos/logo.png" alt=""></h2>
+                <p><strong>ADDRESS:</strong> 28 White tower, Street Name New York City, USA</p>
+                <p><strong>TELEPHONE:</strong> +91 987 654 3210</p>
+                <p><strong>EMAIL:</strong> yourmain@gmail.com</p>
+            </div>
+
+            <div class="footer-box">
+                <h3>MENU</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#products">Services</a>
+                <a href="#testimonial">Testimonial</a>
+                <a href="#about">Blog</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="footer-box">
+                <h3>ACCOUNT</h3>
+                <a href="#">Account</a>
+                <a href="#">Checkout</a>
+                <a href="#">Login</a>
+                <a href="#">Register</a>
+                <a href="#">Shopping</a>
+                <a href="#">Widget</a>
+            </div>
+
+            <div class="footer-box">
+                <h3>NEWSLETTER</h3>
+                <p>Subscribe by our newsletter and get update protidin.</p>
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Enter Your Mail" />
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 All Rights Reserved by <span class="red">Free HTML Templates</span></p>
+            <p>Distributed by <span class="red">ThemeWagon</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
