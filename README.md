@@ -1,2 +1,2 @@
 # E-commerce-project
-Created an E-commerce Websit3e Using HTML , CSS , BOOTSTRAP
+Created an E-commerce Website Using HTML , CSS , BOOTSTRAP
